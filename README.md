@@ -9,11 +9,10 @@ El desplegar aplicaciones con docker es importante, debido a que proporciona al 
 # 2- Configuración del archivo docker-compose.yml.
 El archivo docker-compose.yml será esencial en este proceso, ya que desplegará todas las imágenes necesarias.
 
-===========================================================================================================================
 ## versión de compose 3.3
-version: '3.3'
-services:
-    db:
+    version: '3.3'
+    services:
+        db:
 ## nombre del contenedor, este será el nombre con el que se desplegará
         container_name: db
 ## servicio mysql
@@ -67,7 +66,7 @@ services:
             MYSQL_USER: admin
             MYSQL_PASSWORD: 1234
             MYSQL_ROOT_PASSWORD: root
-===============================================================================================================
+
 
 # 3- Pasos para el despliegue de la aplicación.
 
