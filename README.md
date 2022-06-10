@@ -69,7 +69,9 @@ El archivo docker-compose.yml será esencial en este proceso, ya que desplegará
 
 
 # 3- Pasos para el despliegue de la aplicación.
+Estando dentro del directorio del proyecto, ejecutamos 
 
+    docker-compose up -d
 
 # 4- Preparación y subida de la imagen a dockerhub.
 
