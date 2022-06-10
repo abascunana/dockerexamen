@@ -79,4 +79,4 @@ El archivo docker-compose.yml será esencial en este proceso, ya que desplegará
 # 6- Anexos
 debido a que me daba un conflicto en la versión de tomcat a la hora de hacer un compose, decidí realizar un docker prune (no pasa nada por que no necesitaba las imágenes extra )
 
-![image](image2.png)
+![image](image3.png)
