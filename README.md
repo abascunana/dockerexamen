@@ -72,11 +72,18 @@ El archivo docker-compose.yml será esencial en este proceso, ya que desplegará
 Estando dentro del directorio del proyecto, ejecutamos 
 
     docker-compose up -d
-
+## resultados de la ejecución del comando
+![image](image7.png)
 # 4- Preparación y subida de la imagen a dockerhub.
 
 
 # 5- Conclusiones
+Página web
+![image](image4.png)
+PhpMyadmin (login)
+![image](image5.png)
+Phpmyadmin (apartado de contro)
+![image](image6.png)
 
 # 6- Anexos
 debido a que me daba un conflicto en la versión de tomcat a la hora de hacer un compose, decidí realizar un docker prune (no pasa nada por que no necesitaba las imágenes extra )
