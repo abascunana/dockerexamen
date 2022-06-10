@@ -82,7 +82,8 @@ Luego realizamos un docker build de nuestro proyecto
 
      docker build -t nombreusuario/nombreproyecto:latest .
 Esto nos conectará a dockerhub y nos creará un repositorio con la imagen de su proyecto 
-     docker push nombreusuario/nombreproyecto:latest 
+    
+         docker push nombreusuario/nombreproyecto:latest     
 y finalmente,esto nos subirá el proyecto a nuestro repositorio (tiene que estar creado previanente(
 ![image](image9.png)
 
