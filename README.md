@@ -75,6 +75,14 @@ Estando dentro del directorio del proyecto, ejecutamos
 ## resultados de la ejecución del comando
 ![image](image7.png)
 # 4- Preparación y subida de la imagen a dockerhub.
+Antes de realizar nada será importante asegurarnos de que tenemos nuestra cuenta de dockerhub y estamos loggeados en ella mediante terminal
+![image](image8.png)
+
+Luego realizamos un docker build de nuestro proyecto
+
+     docker build -t nombreusuario/nombreproyecto:latest .
+Esto nos conectará a dockerhub y nos creará un repositorio con la imagen de su proyecto 
+![image](image9.png)
 
 
 # 5- Conclusiones
@@ -82,10 +90,19 @@ Página web
 ![image](image4.png)
 PhpMyadmin (login)
 ![image](image5.png)
-Phpmyadmin (apartado de contro)
+Phpmyadmin (apartado de control)
 ![image](image6.png)
 
 # 6- Anexos
 debido a que me daba un conflicto en la versión de tomcat a la hora de hacer un compose, decidí realizar un docker prune (no pasa nada por que no necesitaba las imágenes extra )
 
 ![image](image3.png)
+
+# links:
+## tomcat
+https://hub.docker.com/r/abascunana/dockerexamen
+## base de datos
+
+## phpmyadmin
+
+
