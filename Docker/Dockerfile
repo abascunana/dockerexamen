@@ -2,7 +2,7 @@ FROM tomcat:latest
 
 LABEL maintainer="Antoni Xavier"
 
-ADD ./docker/LocalCritic.war /usr/local/tomcat/webapps/
+ADD ./LocalCritic.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
